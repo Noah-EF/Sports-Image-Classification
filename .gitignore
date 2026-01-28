@@ -1,0 +1,17 @@
+# Data
+data/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# Conda / envs
+.env
+.envrc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
