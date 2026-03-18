@@ -1,0 +1,19 @@
+[workspace]
+authors = ["Noah-EF <noahforphone@gmail.com>"]
+channels = ["pytorch", "nvidia", "conda-forge"]
+name = "Sports-Image-Classification"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+pytorch = ">=2.5.1,<3"
+torchvision = ">=0.20.1,<0.21"
+pytorch-cuda = "12.1.*"
+numpy = ">=2.4.3,<3"
+matplotlib = ">=3.10.8,<4"
+tqdm = ">=4.67.3,<5"
+pip = ">=26.0.1,<27"
+jupyter = ">=1.1.1,<2"
